@@ -1,0 +1,171 @@
+body {
+    background-color: black;
+    border: 2px solid rgb(47, 51, 54);
+}
+
+.wd-border-box {
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-heading {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-left: 12px;
+}
+
+.wd-blue-ellipsis {
+    float: right;
+    color: rgb(29,161,242);
+    margin-right: 16px;
+}
+
+.wd-ellipsis {
+    float: right;
+    color: lightgray;
+    margin-right: 16px;
+    margin-top: 20px;
+}
+
+.wd-sub-heading {
+    color: lightgray;
+    font-size: 13px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-handle {
+    color: lightgray;
+    font-size: 15px;
+}
+
+.wd-border-bottom {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 12px;
+}
+
+/*.wd-post-1 > img {*/
+/*    margin-left: 16px;*/
+/*    margin-top: 12px;*/
+/*}*/
+
+.wd-second-section {
+    margin-left: 16px;
+    margin-top: 12px;
+    display: inline-block;
+}
+
+.wd-second-section > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 48px;
+}
+
+/*.wd-content {*/
+/*    display: inline-block;*/
+/*    font-size: 15px;*/
+/*}*/
+
+.wd-content > h2 {
+    color: white;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.wd-main-content {
+    font-size: 15px;
+    color: white;
+    width: 506px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}
+
+.wd-margin {
+    float: right;
+    margin-left: 12px;
+}
+
+.wd-border > img {
+    width: 504px;
+    height: 264px;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 1px solid lightgray;
+}
+
+.wd-margin > h2 {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-para-2 {
+    font-size: 15px;
+    color: lightgray;
+    width: 475px;
+    margin-top: 0px;
+}
+
+.wd-section-2 > h2 {
+    font-size: 15px;
+    color: white;
+}
+
+.wd-section-2 {
+    /*border: 1px solid lightgray;*/
+    /*border-radius: 0px 0px 15px 15px;*/
+    padding: 0px 12px 12px 12px;
+    margin-top: 12px;
+}
+
+.wd-dot {
+    color: rgb(110, 118, 125);
+}
+
+.wd-lightgray-icon {
+    color: lightgray;
+}
+
+.wd-border {
+    /*margin-top: 12px;*/
+    border: 1px solid lightgray;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 12px;
+}
+
+.wd-icon-section {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.wd-icon-section > a > img {
+    width: 20px;
+    height: 20px;
+}
+
+.wd-icon-section > a {
+    text-decoration: none;
+    color: lightgray;
+}
+
+.wd-heart {
+    color: red;
+    font-size: 20px;
+}
+
+.wd-numbers {
+    margin-left: 12px;
+}
+
+.wd-post-1 {
+    border-bottom: 2px solid rgb(47, 51, 54);
+}
+
+.wd-post-2 {
+    border-bottom: 2px solid rgb(47, 51, 54);
+}
+
