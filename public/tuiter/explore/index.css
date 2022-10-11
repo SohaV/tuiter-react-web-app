@@ -1,174 +1,44 @@
-body {
-    background-color: black;
-    border: 2px solid rgb(47, 51, 54);
+.wd-display {
+    display: flex;
+    justify-content: center;
+    /*float: right;*/
 }
 
-.wd-border {
-    margin-left: 16px;
-}
-
-.wd-border-top {
-    border-top: 7px solid rgb(47, 51, 54);
-}
-
-.wd-border-bottom {
-    border-bottom: 2px solid rgb(47, 51, 54);
-}
-
-.wd-search {
-    margin-top: 10px;
-    border-radius: 25px;
-    color: white;
-    background-color: darkgray;
-    width: 500px;
-}
-
-a > span {
-    float: right;
-    margin-right: 12px;
-    font-size: 30px;
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
 }
 
 .wd-nav-tabs {
     width: 100%;
-    color: rgb(110, 118, 125);
-    /*padding: 0px;*/
-    display: flex;
-    justify-content: space-around;
-    font-size: 15px;
-    padding: 16px;
+    color: rgb(29,161,242);
+    padding: 0px;
 }
 
 .wd-nav-tabs li {
     list-style-type: none;
     display: inline-block;
-    padding: 0 20px 10px 20px;
 }
 
 .wd-nav-tabs .wd-selected {
     border-bottom: solid 4px rgb(29,161,242);
-    color: rgb(29,161,242);
 }
 
-.wd-post-1 h3 {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
+@media (min-width: 576px) and (max-width: 768px) {
+    .wd-decrease-font {
+        font-size: small;
+    }
 }
 
-.wd-post-1 h1 {
-    font-size: 15px;
-    color: white;
-}
+/*@media (min-width: 576px) and (max-width: 768px) {*/
+/*    .wd-img-responsive {*/
+/*        width: 20px;*/
+/*        margin-right: 0px;*/
+/*    }*/
+/*}*/
 
-.wd-ellipsis-white {
-    color: white;
-    float: right;
-    margin-right: 16px;
-}
 
-.wd-dot {
-    color: rgb(110, 118, 125);
-}
 
-.wd-post-2 h3 {
-    font-size: 13px;
-    color: white;
-}
 
-.wd-post-2 h1 {
-    font-size: 17px;
-    color: white;
-}
 
-.wd-post-2 > h3 > span {
-    font-size: 11px;
-    color: rgb(110, 118, 125);
-}
 
-.wd-post-2 > h3 > img {
-    width: 15px;
-    height: 15px;
-    padding-bottom: 0px;
-}
-
-div > a {
-    margin-right: 12px;
-}
-
-.wd-post-2 > img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-    border-radius: 20px;
-}
-
-.wd-post-3 h3 {
-    font-size: 13px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-post-3 h1 {
-    font-size: 17px;
-    color: white;
-}
-
-.wd-post-3 > img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-    border-radius: 20px;
-}
-
-.wd-post-1 > span {
-    float: right;
-    color: rgb(110, 118, 125);
-    margin-right: 16px;
-}
-
-.wd-post-4 > img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-    border-radius: 20px;
-}
-
-.wd-post-4 h3 {
-    font-size: 13px;
-    color: white;
-}
-
-.wd-post-4 h1 {
-    font-size: 17px;
-    color: white;
-}
-
-.wd-post-4 > h3 > span {
-    font-size: 11px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-post-5 h1 {
-    font-size: 17px;
-    color: white;
-}
-
-.wd-post-5 > h3 > span {
-    font-size: 11px;
-    color: rgb(110, 118, 125);
-}
-
-.wd-post-5 > img {
-    float: right;
-    width: 100px;
-    height: 100px;
-    margin-right: 16px;
-    border-radius: 20px;
-}
-
-.wd-post-5 h3 {
-    font-size: 13px;
-    color: white;
-}

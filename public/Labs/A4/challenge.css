@@ -1,0 +1,159 @@
+.wd-display {
+    display: flex;
+    justify-content: center;
+    /*float: right;*/
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.wd-nav-tabs {
+    width: 100%;
+    /*color: rgb(29,161,242);*/
+    padding: 0px;
+}
+
+.wd-nav-tabs li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.wd-nav-tabs .wd-selected {
+    /*border-bottom: solid 4px rgb(29,161,242);*/
+}
+
+.nav nav-tabs {
+    border: 0px;
+}
+
+.wd-navs {
+   margin-left: 30px !important;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .wd-decrease-font {
+        font-size: small;
+    }
+}
+
+/*@media (min-width: 576px) and (max-width: 768px) {*/
+/*    .wd-img-responsive {*/
+/*        width: 20px;*/
+/*        margin-right: 0px;*/
+/*    }*/
+/*}*/
+
+body {
+    background-color: black;
+}
+
+.active.override-bs {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: black;
+}
+
+.wd-search-bg {
+    background-color: darkgray;
+    border: darkgray;
+}
+
+.border.override-bs {
+    border-top: 0px !important;
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-bottom: 4px solid rgb(29,161,242) !important;
+}
+
+.wd-img-galaxy {
+    border-left: 1px solid darkgray;
+    border-right: 1px solid darkgray;
+    border-bottom: 1px solid darkgray;
+}
+
+/*.wd-nav-border {*/
+/*    border-left: 1px solid darkgray;*/
+/*    border-right: 1px solid darkgray;*/
+/*    border-bottom: 1px solid darkgray;*/
+/*}*/
+
+/*.wd-search-border {*/
+/*    border-top: 1px solid darkgray;*/
+/*    border-left: 1px solid darkgray;*/
+/*    border-right: 1px solid darkgray;*/
+/*}*/
+
+.wd-border {
+    border: 1px solid darkgray;
+}
+
+.wd-search-margin {
+    margin-left: 30px;
+}
+
+.wd-cog {
+    font-size: 25px;
+    margin-top: 20px !important;
+    margin-left: 40px !important;
+}
+
+.wd-search-icon {
+    margin-left: 40px !important;
+    margin-bottom: 50px !important;
+}
+
+.wd-heading > h1 {
+    font-size: 25px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.wd-heading > h2 {
+    font-size: 15px !important;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.wd-saturn-img {
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.wd-ellipsis {
+    float: right;
+    color: lightgray;
+    margin-right: 16px;
+}
+
+.wd-stanley-img {
+    float: right;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+.wd-border-posts {
+    border: 1px solid darkgray;
+    border-radius: 0px;
+}
+
+.wd-right-sub-heading {
+    color: darkgray;
+}
+
+h6 {
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+.wd-margin-left-nav {
+    margin-left: 20px !important;
+}
+
+
+
+
