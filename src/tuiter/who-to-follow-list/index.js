@@ -2,7 +2,7 @@ import React from "react";
 import whoArray from './who.json';
 import WhoToFollowListItem
     from "./who-to-follow-list-item";
-import who from "./who.json";
+// import who from "./who.json";
 
 const WhoToFollowList = () => {
     return(

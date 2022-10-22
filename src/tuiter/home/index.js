@@ -9,7 +9,7 @@ const HomeComponent = () => {
                 <span className="float-end text-secondary h5">&#8230;</span>
                 <div className="mt-1">
 
-                    <img className="rounded-circle float-start me-3" src="../images/spacex.jpg" style={{width: '10%', height: '10%'}}/>
+                    <img alt="SpaceX" className="rounded-circle float-start me-3" src="../images/spacex.jpg" style={{width: '10%', height: '10%'}}/>
                     <div>
                         <h2 className="h6 fw-bold">SpaceX <span className="fa fa-check-circle text-primary">
                     <span className="text-secondary float-right" style={{fontSize: '13px'}}> @SpaceX <span className="text-secondary">&#x2022;</span> 23h</span>
@@ -21,7 +21,7 @@ const HomeComponent = () => {
                         <span className="text-primary"> spacex.com/updates</span>
                     </div>
 
-                    <img className="rounded h-75" src="../images/DennisAkiko.jpg" style={{width: '80%', marginLeft: '70px'}}/>
+                    <img alt="DennisAkiko" className="rounded h-75" src="../images/DennisAkiko.jpg" style={{width: '80%', marginLeft: '70px'}}/>
 
                     <div className="mt-3 mb-3" style={{marginLeft: '70px'}}>
                         <i className="fa fa-comment text-secondary"></i><span
@@ -39,7 +39,7 @@ const HomeComponent = () => {
                 <div className="mt-4">
                     <span className="float-end text-secondary h5">&#8230;</span>
                     <div className="mt-1">
-                        <img className="rounded-circle float-start me-3" src="../images/elonMusk.jpg" style={{width: '10%', height: '10%'}}/>
+                        <img alt="Elon Musk" className="rounded-circle float-start me-3" src="../images/elonMusk.jpg" style={{width: '10%', height: '10%'}}/>
                         <div>
                             <h2 className="h6 fw-bold">Elon Musk <span className="fa fa-check-circle text-primary">
                         <span className="text-secondary float-right" style={{fontSize: '13px'}}> @elonmusk <span className="text-secondary">&#x2022;</span> 15h</span>
@@ -50,7 +50,7 @@ const HomeComponent = () => {
                         </div>
 
                         <div className="border border-secondary rounded p-2" style={{marginLeft: '70px'}}>
-                            <img className="rounded-circle float-start me-3" src="../images/spacex.jpg" style={{width: '5%', height: '5%'}}/>
+                            <img alt="Space X" className="rounded-circle float-start me-3" src="../images/spacex.jpg" style={{width: '5%', height: '5%'}}/>
                             <div>
                                 <h2 className="h6 fw-bold">SpaceX <span className="fa fa-check-circle text-primary">
                                 <span className="text-secondary float-right" style={{fontSize: '13px'}}> @SpaceX <span className="text-secondary">&#x2022;</span> 16h</span>
