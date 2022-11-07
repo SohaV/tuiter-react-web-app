@@ -21,6 +21,7 @@ const ProfileComponent = () => {
                                     <h5>{profile.firstName} {profile.lastName}</h5>
                                     <h6 className="text-secondary">6,114 Tweets</h6>
                                 </div>
+
                                 <div>
                                     <img alt="profile" src={profile.profilePicture} className="rounded-circle position-absolute ms-4" style={{width: '25%', height: '30%', marginTop: '20%'}}/>
                                 </div>
