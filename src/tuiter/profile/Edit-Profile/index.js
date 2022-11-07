@@ -12,13 +12,14 @@ const EditProfileComponent = () => {
     let loc;
     let website;
     let dateofbirth;
-    profileArray.map((profile) => {
+    profileArray.map(profile => {
         firstname = profile.firstName;
         lastname = profile.lastName;
         bio = profile.bio;
         loc = profile.location;
         website = profile.website;
         dateofbirth = profile.dateOfBirth;
+        return '';
     });
     const [firstName, setFirstName] = useState(firstname);
     const [lastName, setLastName] = useState(lastname);
@@ -112,10 +113,10 @@ const EditProfileComponent = () => {
                         </div>
 
                         <div>
-                            <img alt="image" src="../../images/user.jpg" className="rounded-circle position-absolute ms-4"
+                            <img alt="user" src="../../images/user.jpg" className="rounded-circle position-absolute ms-4"
                                  style={{width: '20%', height: '20%', marginTop: '20%'}}/>
                         </div>
-                        <img alt="image" src="../../images/bac.jpg" className="w-100 h-25"/>
+                        <img alt="bac" src="../../images/bac.jpg" className="w-100 h-25"/>
 
                         <div style={{marginTop: '35%'}}>
                             <div className="mb-3 border border-secondary rounded p-3">
