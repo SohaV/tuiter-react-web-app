@@ -12,7 +12,7 @@ const EditProfileComponent = () => {
     let loc;
     let website;
     let dateofbirth;
-    profileArray.map(profile => {
+    profileArray.map((profile) => {
         firstname = profile.firstName;
         lastname = profile.lastName;
         bio = profile.bio;
@@ -112,10 +112,10 @@ const EditProfileComponent = () => {
                         </div>
 
                         <div>
-                            <img src="../../images/user.jpg" className="rounded-circle position-absolute ms-4"
+                            <img alt="image" src="../../images/user.jpg" className="rounded-circle position-absolute ms-4"
                                  style={{width: '20%', height: '20%', marginTop: '20%'}}/>
                         </div>
-                        <img src="../../images/bac.jpg" className="w-100 h-25"/>
+                        <img alt="image" src="../../images/bac.jpg" className="w-100 h-25"/>
 
                         <div style={{marginTop: '35%'}}>
                             <div className="mb-3 border border-secondary rounded p-3">
@@ -149,7 +149,7 @@ const EditProfileComponent = () => {
                             </div>
 
                             <div className="mb-3 border border-secondary rounded p-3">
-                                <label for="dob">Birth date <a href="#">Edit</a></label><br/>
+                                <label for="dob">Birth date <span className="text-primary">Edit</span></label><br/>
                                 <input type="text" placeholder="Website" id="dob"
                                        value={dob} onChange={dobChangeHandler}/>
                             </div>

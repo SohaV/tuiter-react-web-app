@@ -5,7 +5,6 @@ import {useNavigate} from 'react-router-dom';
 
 const ProfileComponent = () => {
     const profileArray = useSelector((state) => state.profiles);
-    const dispatch = useDispatch();
     const navigate = useNavigate();
     const editProfileHandler = () => {
         navigate('/tuiter/edit-profile');
@@ -23,9 +22,9 @@ const ProfileComponent = () => {
                                     <h6 className="text-secondary">6,114 Tweets</h6>
                                 </div>
                                 <div>
-                                    <img src={profile.profilePicture} className="rounded-circle position-absolute ms-4" style={{width: '25%', height: '30%', marginTop: '20%'}}/>
+                                    <img alt="profile" src={profile.profilePicture} className="rounded-circle position-absolute ms-4" style={{width: '25%', height: '30%', marginTop: '20%'}}/>
                                 </div>
-                                <img src={profile.bannerPicture} className="w-100 h-25"/>
+                                <img alt="profile" src={profile.bannerPicture} className="w-100 h-25"/>
 
                                 <button className="rounded-pill float-end fw-bold mt-2 border border-secondary" onClick={editProfileHandler}>Edit Profile</button>
                                 <div style={{marginTop: '20%'}}>
