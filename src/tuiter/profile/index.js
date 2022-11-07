@@ -1,6 +1,6 @@
 import React from "react";
 import '@fortawesome/fontawesome-free/css/all.css';
-import {useDispatch,useSelector} from "react-redux";
+import {useSelector} from "react-redux";
 import {useNavigate} from 'react-router-dom';
 
 const ProfileComponent = () => {
