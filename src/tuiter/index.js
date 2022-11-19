@@ -13,7 +13,7 @@ import {Routes, Route} from "react-router";
 import HomeComponent from "./home/index.js";
 import whoReducer
     from "./reducers/who-reducer";
-import tuitsReducer from "./tuits/tuits-reducer";
+import tuitsReducer from "./tuits/tuits-reducer.js";
 import profiles from "./profile/profile";
 import ProfileComponent from "./profile/index.js";
 import { configureStore }
@@ -21,7 +21,7 @@ import { configureStore }
 import {Provider} from "react-redux";
 import EditProfileComponent from "./profile/Edit-Profile/index.js";
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer, profiles}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer, profiles}});
 
 
 function Tuiter() {
