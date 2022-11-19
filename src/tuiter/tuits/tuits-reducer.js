@@ -63,7 +63,6 @@ const tuitsSlice = createSlice({
                 state.tuits[tuitNdx] = {
                     ...state.tuits[tuitNdx],
                     ...payload
-
                 }
             }
     },

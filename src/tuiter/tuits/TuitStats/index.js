@@ -43,6 +43,7 @@ const TuitStatsComponent = (
                 {/*}*/}
 
                     {/*Likes: {post.likes}*/}
+
                     <i onClick={() => dispatch(updateTuitThunk({
                         ...post,
                         likes: post.likes + 1
