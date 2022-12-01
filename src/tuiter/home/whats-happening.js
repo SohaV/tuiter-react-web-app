@@ -12,7 +12,6 @@ const WhatsHappening = () => {
             tuit: whatsHappening
         }
         dispatch(createTuitThunk(newTuit));
-        console.log(whatsHappening);
     }
     return (
         <div className="row">

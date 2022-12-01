@@ -14,6 +14,7 @@ const TuitStatsComponent = (
             "replies": 111,
             "retuits": 222,
             "likes": 333,
+            "dislikes": 0,
             "handle": "@test",
             "tuit": "Testing"
 
