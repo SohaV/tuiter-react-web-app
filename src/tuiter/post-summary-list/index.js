@@ -17,6 +17,12 @@ const PostSummaryList = () => {
     return(
         <ul className="list-group">
             {
+                loading &&
+                <li className="list-group-item">
+                    Loading...
+                </li>
+            }
+            {
                 tuits.map(post =>
                     <PostSummaryItem
                         key={tuits._id} post={post}/> )
