@@ -4,7 +4,7 @@ import TuitsItemComponent
     from "../TuitsItem/index.js";
 import {useDispatch, useSelector} from "react-redux";
 import TuitStatsComponent from "../TuitStats";
-import {findTuitsThunk, updateTuitThunk}
+import {findTuitsThunk}
     from "../../../services/tuits-thunks.js";
 
 
